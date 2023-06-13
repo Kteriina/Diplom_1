@@ -1,12 +1,15 @@
 package praktikum;
 
+import javax.annotation.processing.Generated;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Класс с методами по работе с базой данных.
  */
+
 public class Database {
+
 
     private final List<Bun> buns = new ArrayList<>();
     private final List<Ingredient> ingredients = new ArrayList<>();
